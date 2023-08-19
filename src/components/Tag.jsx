@@ -18,7 +18,8 @@ const Tag = () => {
       {
         loading?(<Spinner/>):(<img src={gif} width="450" height="450" ></img>)
       }
-      <h2>Please enter below the type of GIF you want:-</h2>
+      
+      <label>Please enter below the type of GIF you want:-</label>
       <input 
         className='w-10/12 text-lg py-2 rounded-lg mb-[3px] text-center'
         onChange={(event) =>  setTag(event.target.value)}
