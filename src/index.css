@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+
 .background {
-   background-image: radial-gradient(#474bff 1px, transparent 1px), radial-gradient(#474bff 1px, transparent 1px);
+background-image: radial-gradient(#474bff 1px, transparent 1px), radial-gradient(#474bff 1px, transparent 1px);
 background-size: 59px 59px;
 background-position: 0 0, 29.5px 29.5px;
 background-color: rgba(218, 236, 128, 0.72);

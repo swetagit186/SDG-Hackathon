@@ -16,8 +16,9 @@ const Tag = () => {
       A Random {tag} Gif
       </h1>
       {
-        loading?(<Spinner/>):(<img src={gif} width='450' ></img>)
+        loading?(<Spinner/>):(<img src={gif} width="450" height="450" ></img>)
       }
+      <h2>Please enter below the type of GIF you want:-</h2>
       <input 
         className='w-10/12 text-lg py-2 rounded-lg mb-[3px] text-center'
         onChange={(event) =>  setTag(event.target.value)}
