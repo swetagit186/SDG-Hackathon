@@ -18,7 +18,12 @@ const Tag = () => {
       {
         loading?(<Spinner/>):(<img src={gif} width='450' ></img>)
       }
-      <button className="w-10/12 bg-yellow-600 text-lg py-2 rounded-lg mb-[20px]" onClick={()=>fetchData()}>
+      <input 
+        className='w-10/12 text-lg py-2 rounded-lg mb-[3px] text-center'
+        onChange={(event) =>  setTag(event.target.value)}
+        value={tag}
+      />
+      <button className="w-10/12 bg-yellow-600 text-lg py-2 rounded-lg mb-[20px]" onClick={()=>fetchData(tag)}>
       Generate
       </button>
     </div>
