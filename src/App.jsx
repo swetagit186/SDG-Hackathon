@@ -8,7 +8,7 @@ export default function App() {
       RANDOM GIFS</h1>
       <div className="flex flex-col w-full items-center gap-y-10 mt-[30px]">
         <Random />
-        <Tag />
+        <Tag/>
       </div>
     </div>
   </div>;
