@@ -7,7 +7,7 @@ import useGif from '../hooks/useGif'
 const API_KEY=process.env.REACT_APP_GIPHY_API_KEY;
 
 const Tag = () => {
-    const [tag,setTag]=useState('car');
+    const [tag,setTag]=useState('doraemon');
     const {gif,loading,fetchData}=useGif(tag);
   return (
     <div className="w-1/2 bg-yellow-300 rounded-lg border-black flex flex-col items-center gap-y-5 mt-[15px] mb-[50px]">
